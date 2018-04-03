@@ -24,6 +24,9 @@ For example, in sentence ''great food but the service was dreadful!'', the senti
 ### Quick Start
 Download the 300-dimensional pre-trained word vectors from [Glove](http://nlp.stanford.edu/projects/glove/) and save it in the 'data' folder as 'data/glove.6B.300d.txt'. 
 
+Install the requirement by `pip install -r requirements.txt`
+You also need to download spacy model via `python -m spacy download en`
+
 Train a model with 7 hops on the [Laptop](http://alt.qcri.org/semeval2016/task5/) dataset.
 ```
 python main.py --show True
